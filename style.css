@@ -1,0 +1,29 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+    background-color: silver;
+}
+.container{
+    background-color: rgba(255,255, 255,0.5);
+    width: 300px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    font-family: monospace;
+}
+.button{
+    margin-top: 9px;
+    text-align: center;
+    font-family: monospace;
+    font-weight: bolder;
+    border-radius: 5px;
+    width: 100px;
+}
+.button:hover{
+    background-color: darkgray;
+    transition: all 0.2s ease;
+    transform: scale(1.09);
+}
